@@ -1,0 +1,51 @@
+{
+  "prompt_version": "v2_profiles_critique",
+  "provider_summary": {
+    "openai": {
+      "n": 9,
+      "avg_probability": 20.7,
+      "stdev_probability": 3.1
+    }
+  },
+  "profile_summary": {
+    "base": {
+      "n": 3,
+      "avg_probability": 20.7,
+      "stdev_probability": 1.7
+    },
+    "investor": {
+      "n": 3,
+      "avg_probability": 17.7,
+      "stdev_probability": 0.5
+    },
+    "researcher": {
+      "n": 3,
+      "avg_probability": 23.7,
+      "stdev_probability": 2.9
+    }
+  },
+  "overall": {
+    "n": 9,
+    "ai_baseline_probability": 20.7,
+    "weighted_ai_baseline_probability": 20.4,
+    "confidence_weighted_baseline": 20.5,
+    "ai_spread_stdev": 3.1,
+    "min_probability": 17,
+    "max_probability": 27,
+    "disagreement_score": 10,
+    "highest_profile": "researcher",
+    "lowest_profile": "investor"
+  },
+  "synthesis": {
+    "researcher_view": "Resolution depends heavily on public wording. Even if AI materially enables cuts, Fortune 500 firms may still describe them as restructuring or efficiency moves rather than explicitly attributing at least 15% of workforce reduction to AI by 2026-12-31.",
+    "investor_view": "The case still depends on whether one office-heavy Fortune 500 firm under investor pressure chooses to make the attribution publicly by the deadline. That makes disclosure behavior, rather than operational impact alone, central to resolution.",
+    "key_uncertainty": "Whether by 2026 one office-heavy Fortune 500 firm under investor pressure publicly attributes at least 15% of workforce reduction to AI rather than to broader restructuring or efficiency efforts.",
+    "why_disagree": "Researchers focus on public wording and resolution criteria, while investors focus on whether a pressured firm chooses explicit disclosure by the deadline — a 6.0-point difference.",
+    "signal_headline": "Unlikely at 20% with tight consensus",
+    "implication": "AI may contribute to sizable workforce reductions before companies are willing to describe them explicitly as AI-driven.",
+    "primary_driver": "Investor pressure on office-heavy firms",
+    "main_constraint": "Reluctance to explicitly label AI layoffs",
+    "net_effect": "Signal is skewed cautious with tight consensus.",
+    "disagreement_type": "Low disagreement"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "prompt_version": "v2_profiles_critique",
+  "provider_summary": {
+    "openai": {
+      "n": 9,
+      "avg_probability": 41.2,
+      "stdev_probability": 2.7
+    }
+  },
+  "profile_summary": {
+    "base": {
+      "n": 3,
+      "avg_probability": 41,
+      "stdev_probability": 1.6
+    },
+    "investor": {
+      "n": 3,
+      "avg_probability": 41.3,
+      "stdev_probability": 4.0
+    },
+    "researcher": {
+      "n": 3,
+      "avg_probability": 41.3,
+      "stdev_probability": 1.7
+    }
+  },
+  "overall": {
+    "n": 9,
+    "ai_baseline_probability": 41.2,
+    "weighted_ai_baseline_probability": 41.2,
+    "confidence_weighted_baseline": 41.2,
+    "ai_spread_stdev": 2.7,
+    "min_probability": 38,
+    "max_probability": 47,
+    "disagreement_score": 9,
+    "highest_profile": "investor",
+    "lowest_profile": "base"
+  },
+  "synthesis": {
+    "researcher_view": "Recent anti-amyloid progress supports the possibility of stronger results in selected settings. But endpoint dependence, historically very low Phase III Alzheimer's success rates, and an uncertain shot count by Dec 31, 2026 keep the case from moving higher.",
+    "investor_view": "The estimate is adjusted downward from a naive capability-based view because late-stage Alzheimer's timelines and readouts often slip, the near-term opportunity set is limited and correlated around similar mechanisms, and the best current evidence clusters around rather than clearly above the threshold.",
+    "key_uncertainty": "It remains uncertain whether amyloid-targeting therapy in early symptomatic, biomarker-enriched populations can produce at least 30% slowing in a qualifying Phase III result by Dec 31, 2026.",
+    "why_disagree": "Researchers focus on endpoint dependence and the uncertain number of relevant readouts, while investors focus on slipping late-stage timelines, correlated mechanisms, and evidence clustering near the threshold — a 0-point difference.",
+    "signal_headline": "Near-even at 41% with tight consensus",
+    "implication": "The outcome depends on whether recent anti-amyloid progress can translate into a qualifying late-stage result within the timeframe.",
+    "primary_driver": "Recent anti-amyloid progress in selected populations",
+    "main_constraint": "Low hit rates and endpoint dependence",
+    "net_effect": "Signal is skewed cautious with tight consensus.",
+    "disagreement_type": "Low disagreement"
+  }
+}

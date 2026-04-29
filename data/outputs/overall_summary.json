@@ -1,0 +1,254 @@
+{
+  "q1_open_source_parity": {
+    "question_text": "By Dec 31, 2027, will open-source models match or exceed the performance of the leading closed models on most enterprise-relevant benchmarks?",
+    "summary": {
+      "prompt_version": "v2_profiles_critique",
+      "provider_summary": {
+        "openai": {
+          "n": 9,
+          "avg_probability": 54.3,
+          "stdev_probability": 8.0
+        }
+      },
+      "profile_summary": {
+        "base": {
+          "n": 3,
+          "avg_probability": 55.7,
+          "stdev_probability": 2.6
+        },
+        "investor": {
+          "n": 3,
+          "avg_probability": 44.7,
+          "stdev_probability": 2.4
+        },
+        "researcher": {
+          "n": 3,
+          "avg_probability": 62.7,
+          "stdev_probability": 3.8
+        }
+      },
+      "overall": {
+        "n": 9,
+        "ai_baseline_probability": 54.3,
+        "weighted_ai_baseline_probability": 53.4,
+        "confidence_weighted_baseline": 54.6,
+        "ai_spread_stdev": 8.0,
+        "min_probability": 43,
+        "max_probability": 68,
+        "disagreement_score": 25,
+        "highest_profile": "researcher",
+        "lowest_profile": "investor"
+      }
+    }
+  },
+  "ai_nvidia_100b_fy2027": {
+    "question_text": "Will NVIDIA generate at least $100B in annual revenue by FY2027?",
+    "summary": {
+      "prompt_version": "v2_profiles_critique",
+      "provider_summary": {
+        "openai": {
+          "n": 9,
+          "avg_probability": 76.4,
+          "stdev_probability": 2.6
+        }
+      },
+      "profile_summary": {
+        "base": {
+          "n": 3,
+          "avg_probability": 78.3,
+          "stdev_probability": 0.5
+        },
+        "investor": {
+          "n": 3,
+          "avg_probability": 73,
+          "stdev_probability": 1.4
+        },
+        "researcher": {
+          "n": 3,
+          "avg_probability": 78,
+          "stdev_probability": 0.8
+        }
+      },
+      "overall": {
+        "n": 9,
+        "ai_baseline_probability": 76.4,
+        "weighted_ai_baseline_probability": 76.1,
+        "confidence_weighted_baseline": 76.5,
+        "ai_spread_stdev": 2.6,
+        "min_probability": 71,
+        "max_probability": 79,
+        "disagreement_score": 8,
+        "highest_profile": "base",
+        "lowest_profile": "investor"
+      }
+    }
+  },
+  "ai_f500_ai_layoffs_2026": {
+    "question_text": "Will a Fortune 500 company publicly attribute at least 15% workforce reduction to AI by Dec 31, 2026?",
+    "summary": {
+      "prompt_version": "v2_profiles_critique",
+      "provider_summary": {
+        "openai": {
+          "n": 9,
+          "avg_probability": 20.7,
+          "stdev_probability": 3.1
+        }
+      },
+      "profile_summary": {
+        "base": {
+          "n": 3,
+          "avg_probability": 20.7,
+          "stdev_probability": 1.7
+        },
+        "investor": {
+          "n": 3,
+          "avg_probability": 17.7,
+          "stdev_probability": 0.5
+        },
+        "researcher": {
+          "n": 3,
+          "avg_probability": 23.7,
+          "stdev_probability": 2.9
+        }
+      },
+      "overall": {
+        "n": 9,
+        "ai_baseline_probability": 20.7,
+        "weighted_ai_baseline_probability": 20.4,
+        "confidence_weighted_baseline": 20.5,
+        "ai_spread_stdev": 3.1,
+        "min_probability": 17,
+        "max_probability": 27,
+        "disagreement_score": 10,
+        "highest_profile": "researcher",
+        "lowest_profile": "investor"
+      }
+    }
+  },
+  "ai_open_source_beats_openai_2026": {
+    "question_text": "Will an open-source model outperform the latest flagship OpenAI model on at least one major benchmark by Dec 31, 2026?",
+    "summary": {
+      "prompt_version": "v2_profiles_critique",
+      "provider_summary": {
+        "openai": {
+          "n": 9,
+          "avg_probability": 64.1,
+          "stdev_probability": 4.2
+        }
+      },
+      "profile_summary": {
+        "base": {
+          "n": 3,
+          "avg_probability": 61.7,
+          "stdev_probability": 1.7
+        },
+        "investor": {
+          "n": 3,
+          "avg_probability": 61.3,
+          "stdev_probability": 2.5
+        },
+        "researcher": {
+          "n": 3,
+          "avg_probability": 69.3,
+          "stdev_probability": 1.9
+        }
+      },
+      "overall": {
+        "n": 9,
+        "ai_baseline_probability": 64.1,
+        "weighted_ai_baseline_probability": 63.8,
+        "confidence_weighted_baseline": 64.1,
+        "ai_spread_stdev": 4.2,
+        "min_probability": 58,
+        "max_probability": 72,
+        "disagreement_score": 14,
+        "highest_profile": "researcher",
+        "lowest_profile": "investor"
+      }
+    }
+  },
+  "pharma_glp1_10pct_us_2028": {
+    "question_text": "Will at least 10% of U.S. adults be prescribed GLP-1 drugs by Dec 31, 2028?",
+    "summary": {
+      "prompt_version": "v2_profiles_critique",
+      "provider_summary": {
+        "openai": {
+          "n": 9,
+          "avg_probability": 39.6,
+          "stdev_probability": 3.7
+        }
+      },
+      "profile_summary": {
+        "base": {
+          "n": 3,
+          "avg_probability": 41,
+          "stdev_probability": 1.6
+        },
+        "investor": {
+          "n": 3,
+          "avg_probability": 36,
+          "stdev_probability": 1.6
+        },
+        "researcher": {
+          "n": 3,
+          "avg_probability": 41.7,
+          "stdev_probability": 4.2
+        }
+      },
+      "overall": {
+        "n": 9,
+        "ai_baseline_probability": 39.6,
+        "weighted_ai_baseline_probability": 39.2,
+        "confidence_weighted_baseline": 39.6,
+        "ai_spread_stdev": 3.7,
+        "min_probability": 34,
+        "max_probability": 46,
+        "disagreement_score": 12,
+        "highest_profile": "researcher",
+        "lowest_profile": "investor"
+      }
+    }
+  },
+  "pharma_alz_phase3_30pct_2026": {
+    "question_text": "Will a Phase III Alzheimer's drug demonstrate at least 30% slowing of cognitive decline by Dec 31, 2026?",
+    "summary": {
+      "prompt_version": "v2_profiles_critique",
+      "provider_summary": {
+        "openai": {
+          "n": 9,
+          "avg_probability": 41.2,
+          "stdev_probability": 2.7
+        }
+      },
+      "profile_summary": {
+        "base": {
+          "n": 3,
+          "avg_probability": 41,
+          "stdev_probability": 1.6
+        },
+        "investor": {
+          "n": 3,
+          "avg_probability": 41.3,
+          "stdev_probability": 4.0
+        },
+        "researcher": {
+          "n": 3,
+          "avg_probability": 41.3,
+          "stdev_probability": 1.7
+        }
+      },
+      "overall": {
+        "n": 9,
+        "ai_baseline_probability": 41.2,
+        "weighted_ai_baseline_probability": 41.2,
+        "confidence_weighted_baseline": 41.2,
+        "ai_spread_stdev": 2.7,
+        "min_probability": 38,
+        "max_probability": 47,
+        "disagreement_score": 9,
+        "highest_profile": "investor",
+        "lowest_profile": "base"
+      }
+    }
+  }
+}

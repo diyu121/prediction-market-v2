@@ -1,0 +1,51 @@
+{
+  "prompt_version": "v2_profiles_critique",
+  "provider_summary": {
+    "openai": {
+      "n": 9,
+      "avg_probability": 76.4,
+      "stdev_probability": 2.6
+    }
+  },
+  "profile_summary": {
+    "base": {
+      "n": 3,
+      "avg_probability": 78.3,
+      "stdev_probability": 0.5
+    },
+    "investor": {
+      "n": 3,
+      "avg_probability": 73,
+      "stdev_probability": 1.4
+    },
+    "researcher": {
+      "n": 3,
+      "avg_probability": 78,
+      "stdev_probability": 0.8
+    }
+  },
+  "overall": {
+    "n": 9,
+    "ai_baseline_probability": 76.4,
+    "weighted_ai_baseline_probability": 76.1,
+    "confidence_weighted_baseline": 76.5,
+    "ai_spread_stdev": 2.6,
+    "min_probability": 71,
+    "max_probability": 79,
+    "disagreement_score": 8,
+    "highest_profile": "base",
+    "lowest_profile": "investor"
+  },
+  "synthesis": {
+    "researcher_view": "NVIDIA’s quarterly sales in FY2025 were already running well above a $100B annual pace, and Microsoft, Meta, Alphabet, and Amazon have signaled continued 2025–2026 AI infrastructure buildouts. That makes clearing $100B in FY2027 more likely than not.",
+    "investor_view": "NVIDIA’s most recent trailing revenue already exceeded the threshold, and hyperscalers including Microsoft, Meta, Alphabet, and Amazon have signaled continued 2025–2026 AI infrastructure buildouts. But Blackwell transition friction, China export limits, and customer digestion or custom-ASIC substitution could still create an FY2027 air pocket large enough to pull annual revenue back below $100B.",
+    "key_uncertainty": "Whether continued AI infrastructure demand converts into FY2027 revenue above $100B despite Blackwell transition friction, China export limits, and customer digestion or custom-ASIC substitution.",
+    "why_disagree": "Researchers focus on NVIDIA’s FY2025 quarterly run rate and ongoing hyperscaler buildouts, while investors focus on whether Blackwell friction, export limits, and digestion create an FY2027 air pocket — a 5-point difference.",
+    "signal_headline": "Likely at 76% with tight consensus",
+    "implication": "The threshold appears within reach, but the outcome still depends on hyperscaler demand holding up through product transitions and customer spending shifts.",
+    "primary_driver": "Hyperscaler AI infrastructure buildout momentum",
+    "main_constraint": "Blackwell transition and customer digestion risk",
+    "net_effect": "Signal is slightly bullish with tight consensus across views.",
+    "disagreement_type": "Low disagreement"
+  }
+}

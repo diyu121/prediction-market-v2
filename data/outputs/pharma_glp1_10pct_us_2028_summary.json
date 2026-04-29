@@ -1,0 +1,51 @@
+{
+  "prompt_version": "v2_profiles_critique",
+  "provider_summary": {
+    "openai": {
+      "n": 9,
+      "avg_probability": 39.6,
+      "stdev_probability": 3.7
+    }
+  },
+  "profile_summary": {
+    "base": {
+      "n": 3,
+      "avg_probability": 41,
+      "stdev_probability": 1.6
+    },
+    "investor": {
+      "n": 3,
+      "avg_probability": 36,
+      "stdev_probability": 1.6
+    },
+    "researcher": {
+      "n": 3,
+      "avg_probability": 41.7,
+      "stdev_probability": 4.2
+    }
+  },
+  "overall": {
+    "n": 9,
+    "ai_baseline_probability": 39.6,
+    "weighted_ai_baseline_probability": 39.2,
+    "confidence_weighted_baseline": 39.6,
+    "ai_spread_stdev": 3.7,
+    "min_probability": 34,
+    "max_probability": 46,
+    "disagreement_score": 12,
+    "highest_profile": "researcher",
+    "lowest_profile": "investor"
+  },
+  "synthesis": {
+    "researcher_view": "The main reason not to move higher is the brief’s strongest bottlenecks: high list prices, restricted obesity coverage including Medicare limits, and substantial discontinuation. These matter especially if resolution is based on active prescribing rather than ever-use or any 2028 prescription.",
+    "investor_view": "The most likely bottleneck is economic and payer access, not technical efficacy. Even with improved shortage status, strong semaglutide and tirzepatide efficacy, and added indications, high cost, restricted Medicare obesity coverage, and commercial and employer formulary cycles are the main reasons capability may not translate into deployment by this deadline.",
+    "key_uncertainty": "Whether the market can scale to roughly 26 million prescribed adults by 2028 remains uncertain.",
+    "why_disagree": "Researchers focus on active prescribing definitions and discontinuation, while investors focus on payer access and formulary timing — a 5.7-point difference.",
+    "signal_headline": "Unlikely at 39% with moderate disagreement",
+    "implication": "The path to the threshold depends less on efficacy than on whether access frictions ease enough for current growth leaders to sustain broad prescribing at scale.",
+    "primary_driver": "Strong efficacy and expanding indications",
+    "main_constraint": "High costs and restricted coverage",
+    "net_effect": "Signal is skewed cautious with moderate disagreement around timing.",
+    "disagreement_type": "Low disagreement"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "prompt_version": "v2_profiles_critique",
+  "provider_summary": {
+    "openai": {
+      "n": 9,
+      "avg_probability": 54.3,
+      "stdev_probability": 8.0
+    }
+  },
+  "profile_summary": {
+    "base": {
+      "n": 3,
+      "avg_probability": 55.7,
+      "stdev_probability": 2.6
+    },
+    "investor": {
+      "n": 3,
+      "avg_probability": 44.7,
+      "stdev_probability": 2.4
+    },
+    "researcher": {
+      "n": 3,
+      "avg_probability": 62.7,
+      "stdev_probability": 3.8
+    }
+  },
+  "overall": {
+    "n": 9,
+    "ai_baseline_probability": 54.3,
+    "weighted_ai_baseline_probability": 53.4,
+    "confidence_weighted_baseline": 54.6,
+    "ai_spread_stdev": 8.0,
+    "min_probability": 43,
+    "max_probability": 68,
+    "disagreement_score": 25,
+    "highest_profile": "researcher",
+    "lowest_profile": "investor"
+  },
+  "synthesis": {
+    "researcher_view": "Open models have narrowed sharply since 2023, with systems such as Llama 3/3.1 405B and DeepSeek-V3/R1 strengthening the case for parity by 2027. Public leaderboards support a more optimistic reading than estimates centered on deployment friction.",
+    "investor_view": "Open models look likely to reach parity by 2027 on coding, math, multilingual, and some public multimodal benchmarks, but less likely on reliability, safety tuning, tool use and agentic workflows, long-context performance, and private enterprise-style evals. That keeps \"most enterprise-relevant benchmarks\" below even odds.",
+    "key_uncertainty": "The core uncertainty is whether progress visible on public leaderboards translates into parity across the broader mix of enterprise-relevant benchmarks, especially the harder private and reliability-focused evaluations.",
+    "why_disagree": "Researchers focus on benchmark-measured capability gains on public evaluations, while investors focus on threshold-setting across reliability, tool use, and private enterprise evals — a 18.0-point difference.",
+    "signal_headline": "Near-even at 53% with wide disagreement",
+    "implication": "A credible parity path exists, but the case depends heavily on how enterprise-relevant benchmark coverage is defined and measured.",
+    "primary_driver": "Rapid narrowing on public benchmark performance",
+    "main_constraint": "Persistent gaps on enterprise evaluation categories",
+    "net_effect": "Signal is near-even with material divergence over how parity should be measured across benchmark sets.",
+    "disagreement_type": "Measurement"
+  }
+}

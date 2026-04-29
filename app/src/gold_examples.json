@@ -1,0 +1,134 @@
+[
+  {
+    "id": "ai_nvidia_100b_fy2027",
+    "question": "Will NVIDIA generate at least $100B in annual revenue by FY2027?",
+    "category": "AI",
+    "target_profile": {
+      "probability_regime": "bullish",
+      "disagreement_level": "low",
+      "headline_style": "Likely at 77% with tight consensus"
+    },
+    "synthesis": {
+      "signal_headline": "Likely at 77% with tight consensus",
+      "primary_driver": "AI infrastructure demand sustaining rapid revenue growth",
+      "main_constraint": "Customer concentration and revenue timing risk",
+      "net_effect": "Signal is slightly bullish with tight consensus across models.",
+      "researcher_view": "AI compute demand continues to scale, and NVIDIA is already near the required run rate. If current infrastructure spending remains durable, exceeding $100B by FY2027 is highly plausible.",
+      "investor_view": "Demand may remain strong while reported revenue still fluctuates due to supply constraints, export controls, and concentrated hyperscaler spending cycles. Timing risk keeps the outcome from looking even stronger.",
+      "key_uncertainty": "Whether sustained AI demand converts into recognized FY2027 revenue without material interruption from supply or spending cycles.",
+      "why_disagree": "Researchers focus on accelerating infrastructure demand, while investors focus on whether that demand converts cleanly into booked revenue.",
+      "implication": "The threshold looks reachable, but the path still depends on hyperscaler spending durability and execution.",
+      "disagreement_type": "timing"
+    }
+  },
+  {
+    "id": "ai_open_source_beats_openai_2026",
+    "question": "Will an open-source model outperform the latest flagship OpenAI model on at least one major benchmark by Dec 31, 2026?",
+    "category": "AI",
+    "target_profile": {
+      "probability_regime": "near_even_to_slightly_bullish",
+      "disagreement_level": "moderate",
+      "headline_style": "Near-even at 57% with moderate disagreement"
+    },
+    "synthesis": {
+      "signal_headline": "Near-even at 57% with moderate disagreement",
+      "primary_driver": "Open models achieving narrow benchmark wins quickly",
+      "main_constraint": "Moving frontier target and benchmark ambiguity",
+      "net_effect": "Signal is near-even with moderate disagreement around benchmark timing and scope.",
+      "researcher_view": "Open models can achieve benchmark wins before broader adoption or product maturity. A narrow overtake on at least one major benchmark by 2026 is plausible.",
+      "investor_view": "OpenAI may continue moving the frontier, and benchmark definitions may remain contested. That makes a clean, widely recognized overtake less certain than raw capability momentum suggests.",
+      "key_uncertainty": "Whether open-model progress is enough to produce a clear benchmark overtake against the latest flagship system on a benchmark that clearly counts.",
+      "why_disagree": "Researchers focus on the plausibility of a narrow benchmark win, while investors focus on whether that win will be clear, comparable, and resolution-worthy.",
+      "implication": "A benchmark-specific open-source win is plausible, even if overall frontier leadership remains closed.",
+      "disagreement_type": "definition"
+    }
+  },
+  {
+    "id": "q1_open_source_parity",
+    "question": "By Dec 31, 2027, will open-source models match or exceed the performance of the leading closed models on most enterprise-relevant benchmarks?",
+    "category": "AI",
+    "target_profile": {
+      "probability_regime": "near_even",
+      "disagreement_level": "moderate_to_high",
+      "headline_style": "Near-even at 47% with moderate disagreement"
+    },
+    "synthesis": {
+      "signal_headline": "Near-even at 47% with moderate disagreement",
+      "primary_driver": "Rapid open-model iteration and post-training gains",
+      "main_constraint": "Closed-model edge in reliability and multimodal benchmarks",
+      "net_effect": "Signal is near-even with moderate disagreement on whether the remaining capability gap fully closes.",
+      "researcher_view": "Open models are improving quickly through distillation, ecosystem iteration, and post-training gains. If that pace holds, parity by 2027 is plausible.",
+      "investor_view": "Closed labs may retain an edge in the hardest enterprise benchmark categories, especially around reliability, tool use, and multimodal workflows. Open models may narrow the gap without clearly surpassing.",
+      "key_uncertainty": "Whether open-model progress is sufficient to close the remaining gap in the most enterprise-relevant benchmark categories by 2027.",
+      "why_disagree": "Researchers focus on rapid capability improvement, while investors focus on whether closed labs retain an edge in the highest-complexity tasks.",
+      "implication": "A real parity path exists, but the outcome is not strong enough to treat as likely.",
+      "disagreement_type": "capability vs adoption"
+    }
+  },
+  {
+    "id": "ai_f500_ai_layoffs_2026",
+    "question": "Will a Fortune 500 company publicly attribute at least 15% workforce reduction to AI by Dec 31, 2026?",
+    "category": "AI",
+    "target_profile": {
+      "probability_regime": "bearish",
+      "disagreement_level": "low_to_moderate",
+      "headline_style": "Unlikely at 22% with tight consensus"
+    },
+    "synthesis": {
+      "signal_headline": "Unlikely at 22% with tight consensus",
+      "primary_driver": "Automation reaching routine white-collar workflows",
+      "main_constraint": "Companies avoiding explicit AI layoff attribution",
+      "net_effect": "Signal is skewed cautious with tight consensus across models.",
+      "researcher_view": "AI systems are increasingly capable of automating structured knowledge work, which makes large workforce reductions more feasible. Capability progress makes the scenario possible, but not yet common.",
+      "investor_view": "Even if AI contributes to workforce reduction, large companies may avoid publicly attributing layoffs to AI for legal, reputational, and political reasons. Disclosure behavior is the real bottleneck.",
+      "key_uncertainty": "Whether a Fortune 500 company would explicitly credit AI for a large workforce reduction rather than frame it as broader restructuring.",
+      "why_disagree": "Researchers focus on automation capability, while investors focus on whether companies will publicly label layoffs as AI-driven.",
+      "implication": "AI may contribute to workforce cuts before companies are willing to say so explicitly.",
+      "disagreement_type": "definition"
+    }
+  },
+  {
+    "id": "pharma_alz_phase3_30pct_2026",
+    "question": "Will a Phase III Alzheimer's drug demonstrate at least 30% slowing of cognitive decline by Dec 31, 2026?",
+    "category": "Pharma",
+    "target_profile": {
+      "probability_regime": "bearish",
+      "disagreement_level": "low",
+      "headline_style": "Unlikely at 24% with tight consensus"
+    },
+    "synthesis": {
+      "signal_headline": "Unlikely at 24% with tight consensus",
+      "primary_driver": "Incremental progress in disease-modifying therapies",
+      "main_constraint": "Low hit rates and effect-size ceilings",
+      "net_effect": "Signal is skewed cautious with tight consensus across models.",
+      "researcher_view": "Recent therapies show measurable slowing of decline, which supports continued progress. But current effect sizes still fall short of a clear 30% threshold in broad populations.",
+      "investor_view": "Phase III Alzheimer's trials have a long history of misses, and even positive programs often deliver modest benefit. Reaching a materially higher threshold by 2026 remains a high bar.",
+      "key_uncertainty": "Whether improved trial design or patient selection can lift observed effect size above the current class range.",
+      "why_disagree": "Researchers focus on incremental efficacy gains, while investors focus on the class’s long record of disappointing late-stage results.",
+      "implication": "Progress is real, but crossing the threshold still looks unlikely on this timeline.",
+      "disagreement_type": "measurement"
+    }
+  },
+  {
+    "id": "pharma_glp1_10pct_us_2028",
+    "question": "Will at least 10% of U.S. adults be prescribed GLP-1 drugs by Dec 31, 2028?",
+    "category": "Pharma",
+    "target_profile": {
+      "probability_regime": "near_even",
+      "disagreement_level": "high",
+      "headline_style": "Near-even at 51% with wide disagreement"
+    },
+    "synthesis": {
+      "signal_headline": "Near-even at 51% with wide disagreement",
+      "primary_driver": "Strong efficacy driving broad patient demand",
+      "main_constraint": "Coverage, pricing, and adherence limiting scale",
+      "net_effect": "Signal is near-even with wide disagreement on how fast adoption can scale.",
+      "researcher_view": "Clinical demand is strong, and broader physician comfort plus expanded indications could drive rapid adoption. If access improves meaningfully, reaching 10% is realistic.",
+      "investor_view": "Pricing pressure, payer restrictions, and adherence drop-off could slow penetration well below headline demand. Broad interest does not guarantee mass prescription scale.",
+      "key_uncertainty": "Whether cost and coverage improve quickly enough for demand to translate into mass-market prescribing by 2028.",
+      "why_disagree": "Researchers focus on efficacy-driven demand, while investors focus on payer friction and real-world persistence.",
+      "implication": "Mass adoption is plausible, but the outcome depends more on access and affordability than on demand alone.",
+      "disagreement_type": "capability vs adoption"
+    }
+  }
+]

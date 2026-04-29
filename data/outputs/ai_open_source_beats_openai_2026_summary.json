@@ -1,0 +1,51 @@
+{
+  "prompt_version": "v2_profiles_critique",
+  "provider_summary": {
+    "openai": {
+      "n": 9,
+      "avg_probability": 64.1,
+      "stdev_probability": 4.2
+    }
+  },
+  "profile_summary": {
+    "base": {
+      "n": 3,
+      "avg_probability": 61.7,
+      "stdev_probability": 1.7
+    },
+    "investor": {
+      "n": 3,
+      "avg_probability": 61.3,
+      "stdev_probability": 2.5
+    },
+    "researcher": {
+      "n": 3,
+      "avg_probability": 69.3,
+      "stdev_probability": 1.9
+    }
+  },
+  "overall": {
+    "n": 9,
+    "ai_baseline_probability": 64.1,
+    "weighted_ai_baseline_probability": 63.8,
+    "confidence_weighted_baseline": 64.1,
+    "ai_spread_stdev": 4.2,
+    "min_probability": 58,
+    "max_probability": 72,
+    "disagreement_score": 14,
+    "highest_profile": "researcher",
+    "lowest_profile": "investor"
+  },
+  "synthesis": {
+    "researcher_view": "Technical capability can advance faster than business adoption because open-weight iteration and benchmark-focused optimization propagate quickly, while enterprise rollout, safety review, and product integration lag. The most likely accelerant is open-weight catch-up dynamics that let the community rapidly specialize strong base models.",
+    "investor_view": "By 2025, open or open-weights models had already occasionally matched or exceeded top proprietary models on specific public benchmarks. DeepSeek was especially reported as highly competitive on math, coding, and reasoning, so a narrow win path still looks more likely than not.",
+    "key_uncertainty": "Whether open models can secure one accepted benchmark win against the latest flagship OpenAI model by the deadline.",
+    "why_disagree": "Researchers focus on capability advancing faster than adoption, while investors focus on evidence from specific benchmark competitiveness — a 8.0-point difference.",
+    "signal_headline": "Probable at 64% with moderate disagreement",
+    "implication": "A narrow open-source benchmark win can arrive before broader enterprise adoption or product maturity.",
+    "primary_driver": "Open-weight catch-up and benchmark specialization",
+    "main_constraint": "Accepted benchmark scope against moving flagship",
+    "net_effect": "Signal is slightly bullish with moderate disagreement around whether technical progress translates into a clear qualifying win.",
+    "disagreement_type": "Low disagreement"
+  }
+}
